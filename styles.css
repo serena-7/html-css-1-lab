@@ -1,0 +1,60 @@
+body {
+    background-color:beige;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    height:200px;
+    width:200px;
+}
+
+figure {
+    display: inline-block;
+}
+
+h1 {
+    color:white;
+}
+
+h4 {
+    color:blanchedalmond;
+}
+
+header {
+    background-color: brown;
+    padding-top:2%;
+    padding-bottom: 2%;
+}
+
+footer {
+    background-color: brown;
+    padding-top:1%;
+    padding-bottom:1%;
+}
+
+div {
+    border-style: ridge;
+    border-width: 8px;
+    border-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+input[name=suggestion] {
+    width:60vw; 
+    height:10vh;
+    text-align: left;
+}
+
+form {
+    margin:10px;
+}
