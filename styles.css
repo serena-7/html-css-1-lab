@@ -2,41 +2,65 @@ body {
     background-color:beige;
     /* padding-left: 10%;
     padding-right: 10%; */
-    text-align: center;
     margin: 0;
     padding: 0;
 }
 
-img {
+.place {
     height:200px;
     width:200px;
+}
+
+.icon {
+    height: 100px;
+    width:auto;
+    padding-right:10%;
+    padding-left:10%;
 }
 
 figure {
     display: inline-block;
 }
 
+.inline-header {
+    display:inline-flex;
+}
+
 h1 {
     color:white;
+    width:1000px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h4 {
     color:blanchedalmond;
+    padding-left: 15%;
 }
 
-header {
+#wrapper {
     background-color: brown;
     padding-top:2%;
-    padding-bottom: 2%;
+    padding-bottom: 4%;
+}
+
+.page-header {
+    text-align: left;
+}
+
+.nav {
+    float:right;
+    margin-right:10%;
 }
 
 footer {
     background-color: brown;
     padding-top:1%;
     padding-bottom:1%;
+    text-align: center;
 }
 
-div {
+#been, #want, #suggestions{
     border-style: ridge;
     border-width: 8px;
     border-color: white;
@@ -57,4 +81,15 @@ input[name=suggestion] {
 
 form {
     margin:10px;
+}
+
+#none {
+    text-decoration: none;
+    font-weight:bolder;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    padding: 3px;
+    border-style: outset;
+    border-width:3px;
 }
